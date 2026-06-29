@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR2k0157/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR2k0157/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 闞駰十三州志一卷
+  identifiers:
+    krp: KR2k0157
+  tags:
+    kr-categories: KR2k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR2k0157.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR2k0157_001-CHANT.yaml, hash: 'sha256:a86619971474ba281c0b9ced947794ec18fb1c6110f9ab06852cdcb7f70759a7'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2k0157_001-CHANT.markers.yaml, hash: 'sha256:edadebac5bd4c72172aa148f77a1a6f098fe7e5024d151c4ad26676245da8f83'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2k0157_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 4417
+  label: 闞駰十三州志
+  type: section
+  level: 1
+hash: sha256:5eb85a0273037270868ca0f29ffabd4487690821cef6cf94934fe82d99b7d5a5
